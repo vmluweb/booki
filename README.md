@@ -1,1 +1,1 @@
-# booki
+# booki-starter-pack
