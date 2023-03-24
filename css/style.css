@@ -319,9 +319,18 @@ body {
   align-items: center;
 }
 
-.populaires-cards .card {
+/* .populaires-cards {
+  margin-top: 30px;
+} */
+
+.populaires-cards .card a {
   display: flex;
-  margin-top: 33px;
+  color: #000000;
+}
+
+.populaires-cards .card {
+  /* width: 100%; */
+  margin-top: 30px;
 }
 
 .populaires-cards img {
@@ -403,6 +412,8 @@ body {
 }
 
 .footer_content {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding-left: 20px;
 }
@@ -411,7 +422,11 @@ body {
   margin: 0 0 15px 0;
 }
 
-.footer_content li {
+.footer_paragraph {
+  margin-top: 0;
+}
+
+.footer_paragraph {
   margin-bottom: 15px;
 }
 
